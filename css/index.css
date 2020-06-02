@@ -1,0 +1,411 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html,
+body {
+  height: 100%;
+  font-family: "PT Sans", sans-serif;
+}
+.button {
+  margin-top: 15px;
+  height: 20px;
+  width: 100px;
+  font-size: 18px;
+  background-color: #4db6ac;
+  text-align: center;
+  padding: 15px;
+  border-radius: 7px;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header #logo {
+  font-size: 22px;
+  text-decoration: none;
+  color: #a00037;
+}
+header nav {
+  height: 75px;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 45px;
+  align-items: center;
+}
+header nav a {
+  color: inherit;
+  text-decoration: none;
+}
+.intro {
+  padding-top: 30px;
+  height: 90vh;
+  display: flex;
+}
+.intro .intro-left {
+  width: 50%;
+  padding-right: 50px;
+}
+.intro .intro-left h1 {
+  font-size: 75px;
+}
+.intro .intro-left #slogan {
+  font-size: 18px;
+  line-height: 1.6;
+}
+.intro .intro-left #click {
+  margin-top: 15px;
+  height: 20px;
+  width: 100px;
+  font-size: 18px;
+  background-color: #4db6ac;
+  text-align: center;
+  padding: 15px;
+  border-radius: 7px;
+}
+.intro .intro-right {
+  width: 50%;
+  height: 600px;
+  overflow-y: hidden;
+}
+.intro .intro-right img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.offerings {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+}
+.offerings .offerings-left {
+  width: 50%;
+}
+.offerings .offerings-left h2 {
+  font-size: 28px;
+  line-height: 1.6;
+}
+.offerings .offerings-left p {
+  margin-top: 15px;
+  height: 20px;
+  width: 100px;
+  font-size: 18px;
+  background-color: #4db6ac;
+  text-align: center;
+  padding: 15px;
+  border-radius: 7px;
+}
+.offerings .offerings-right {
+  width: 50%;
+  margin-left: 40px;
+}
+.offerings .offerings-right h2 {
+  font-size: 28px;
+  line-height: 1.6;
+}
+.offerings .offerings-right p {
+  margin-top: 15px;
+  height: 20px;
+  width: 100px;
+  font-size: 18px;
+  background-color: #4db6ac;
+  text-align: center;
+  padding: 15px;
+  border-radius: 7px;
+}
+.we-believe {
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.we-believe .we-believe-left {
+  width: 50%;
+  height: 600px;
+  overflow-y: hidden;
+}
+.we-believe .we-believe-left img {
+  width: 100%;
+  border-radius: 10px;
+}
+.we-believe .we-believe-right {
+  width: 50%;
+  margin-left: 40px;
+}
+.we-believe .we-believe-right h2 {
+  font-size: 28px;
+  line-height: 1.6;
+}
+.we-believe .we-believe-right ul li {
+  font-size: 18px;
+  line-height: 1.6;
+}
+.we-believe .we-believe-right p {
+  width: 90%;
+  font-size: 28px;
+  line-height: 1.2;
+  margin-top: 80px;
+}
+.we-believe .we-believe-right #we-believe-click {
+  margin-top: 15px;
+  height: 20px;
+  width: 100px;
+  font-size: 18px;
+  background-color: #4db6ac;
+  text-align: center;
+  padding: 15px;
+  border-radius: 7px;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header #logo {
+  font-size: 22px;
+  text-decoration: none;
+  color: #a00037;
+}
+header nav {
+  height: 75px;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 45px;
+  align-items: center;
+}
+header nav a {
+  color: inherit;
+  text-decoration: none;
+}
+.intro {
+  padding-top: 30px;
+  height: 90vh;
+  display: flex;
+}
+.intro .intro-left {
+  width: 50%;
+  padding-right: 50px;
+}
+.intro .intro-left h1 {
+  font-size: 75px;
+}
+.intro .intro-left #slogan {
+  font-size: 18px;
+  line-height: 1.6;
+}
+.intro .intro-left #click {
+  margin-top: 15px;
+  height: 20px;
+  width: 100px;
+  font-size: 18px;
+  background-color: #4db6ac;
+  text-align: center;
+  padding: 15px;
+  border-radius: 7px;
+}
+.intro .intro-right {
+  width: 50%;
+  height: 600px;
+  overflow-y: hidden;
+}
+.intro .intro-right img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header #logo {
+  font-size: 22px;
+  text-decoration: none;
+  color: #a00037;
+}
+header nav {
+  height: 75px;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 45px;
+  align-items: center;
+}
+header nav a {
+  color: inherit;
+  text-decoration: none;
+}
+.intro {
+  padding-top: 30px;
+  height: 90vh;
+  display: flex;
+}
+.intro .intro-left {
+  width: 50%;
+  padding-right: 50px;
+}
+.intro .intro-left h1 {
+  font-size: 75px;
+}
+.intro .intro-left #slogan {
+  font-size: 18px;
+  line-height: 1.6;
+}
+.intro .intro-left #click {
+  margin-top: 15px;
+  height: 20px;
+  width: 100px;
+  font-size: 18px;
+  background-color: #4db6ac;
+  text-align: center;
+  padding: 15px;
+  border-radius: 7px;
+}
+.intro .intro-right {
+  width: 50%;
+  height: 600px;
+  overflow-y: hidden;
+}
+.intro .intro-right img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
